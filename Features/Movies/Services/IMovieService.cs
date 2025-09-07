@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using MvcMovie.Models;
 using System.Threading.Tasks;
+using MvcMovie.Features.Movies.Models;
 
-namespace MvcMovie.Services
+namespace MvcMovie.Features.Movies.Services
 
 {
     public interface IMovieService

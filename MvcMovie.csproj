@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">  <PropertyGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">  <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -19,8 +19,12 @@
   </ItemGroup>
 	    <ItemGroup>
 			<Compile Remove="Tests\**\*.cs" />
-			<None Include ="Tests\**\*.cs" />
-			<Compile Remove ="obj\**\*.cs" />
-			<Compile Remove ="bin\**\*.cs" />
-		</ItemGroup>	
+			<None Include="Tests\**\*.cs" />
+			<Compile Remove="obj\**\*.cs" />
+			<Compile Remove="bin\**\*.cs" />
+		</ItemGroup>
+	    <ItemGroup>
+	      <Folder Include="Services\" />
+	      <Folder Include="Views\Movies\" />
+	    </ItemGroup>	
 </Project>
