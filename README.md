@@ -4,10 +4,10 @@ It is created through Visual Studio Code and is run as a web app for databasing 
 The program has been updated to utilize dependency injection to create more testable and maintainable code.
 
 routing map: 
-localhost:1234/movies/details/1 
-localhost:1234/movies/delete/1
-localhost:1234/movies/edit/1
-localhost:1234/movies/released/1989/5
+localhost:1234/movies/details/1 ,
+localhost:1234/movies/delete/1 ,
+localhost:1234/movies/edit/1 ,
+localhost:1234/movies/released/1989/5 ,
 localhost:1234/movies/bygenre/romantic%20comedy
 
 
